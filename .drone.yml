@@ -2,4 +2,4 @@ pipeline:
   frontend:
     image: alpine:3.6
     commands:
-      - echo ${NIGHTLY}
+      - echo $NIGHTLY
