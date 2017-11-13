@@ -2,7 +2,4 @@ pipeline:
   frontend:
     image: alpine:3.6
     commands:
-      - echo test
-    when:
-      matrix:
-        NIGHTLY: true
+      - echo "nightly: $NIGHTLY"
